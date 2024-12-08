@@ -1,5 +1,5 @@
 #include "mbed.h"
-DigitalOut condition[]={LED1, PB_1};
+DigitalOut condition[]={PB_1, PA_5};
 RawSerial gs(USBTX,USBRX,9600);
 Timer sattime;
 int main()
